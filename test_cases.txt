@@ -1,0 +1,57 @@
+# Test Case 1: Add Contacts
+1
+Alice
+1234567890
+alice@example.com
+
+1
+Bob
+0987654321
+bob@example.com
+
+1
+Charlie
+1112223333
+charlie@gmail.com
+
+# Test Case 2: Display All Contacts
+2
+
+# Test Case 3: Search for a Specific Contact
+3
+Alice
+
+# Test Case 4: Search for a Non-Existent Contact
+3
+David
+
+# Test Case 5: Update a Contact
+4
+Alice
+9998887777
+alice_new@gmail.com
+
+# Test Case 6: Display Contacts After Update
+2
+
+# Test Case 7: Delete a Contact
+5
+Bob
+
+# Test Case 8: Display Contacts After Deletion
+2
+
+# Test Case 9: Partial Search for Contacts with Prefix "Ch"
+6
+Ch
+
+# Test Case 10: Export Contacts to File
+7
+exported_contacts.csv
+
+# Test Case 11: Import Contacts from File
+8
+imported_contacts.csv
+
+# Test Case 12: Exit the Program
+9

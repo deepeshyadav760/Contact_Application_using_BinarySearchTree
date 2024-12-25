@@ -1,0 +1,160 @@
+# Test Case 1: Adding Contacts
+
+Input:
+1
+Alice
+1234567890
+alice@gmail.com
+
+1
+Bob
+0987654321
+bob@gmail.com
+
+1
+Charlie
+1112223333
+charlie@gmail.com
+
+1
+David
+4445556666
+david@gmail.com
+
+1
+Eve
+7778889999
+eve@gmail.com
+
+Expected Output:
+(Contact is added, no output displayed for this operation)
+
+---
+
+# Test Case 2: Displaying Contacts
+
+Input:
+2
+
+Expected Output:
+Name: Alice, Phone: 1234567890, Email: alice@gmail.com
+Name: Bob, Phone: 0987654321, Email: bob@gmail.com
+Name: Charlie, Phone: 1112223333, Email: charlie@gmail.com
+Name: David, Phone: 4445556666, Email: david@gmail.com
+Name: Eve, Phone: 7778889999, Email: eve@gmail.com
+
+---
+
+# Test Case 3: Searching for an Existing Contact
+
+Input:
+3
+Alice
+
+Expected Output:
+Found: Alice, 1234567890, alice@gmail.com
+
+---
+
+# Test Case 4: Searching for a Non-Existent Contact
+
+Input:
+3
+John
+
+Expected Output:
+Contact 'John' not found.
+
+---
+
+# Test Case 5: Updating a Contact's Information
+
+Input:
+4
+Alice
+9998887777
+alice_updated@gmail.com
+
+Expected Output:
+Contact 'Alice' updated successfully.
+
+---
+
+# Test Case 6: Displaying Contacts After Update
+
+Input:
+2
+
+Expected Output:
+Name: Alice, Phone: 9998887777, Email: alice_updated@gmail.com
+Name: Bob, Phone: 0987654321, Email: bob@gmail.com
+Name: Charlie, Phone: 1112223333, Email: charlie@gmail.com
+Name: David, Phone: 4445556666, Email: david@gmail.com
+Name: Eve, Phone: 7778889999, Email: eve@gmail.com
+
+---
+
+# Test Case 7: Deleting a Contact
+
+Input:
+5
+Bob
+
+Expected Output:
+Contact 'Bob' deleted.
+
+---
+
+# Test Case 8: Displaying Contacts After Deletion
+
+Input:
+2
+
+Expected Output:
+Name: Alice, Phone: 9998887777, Email: alice_updated@gmail.com
+Name: Charlie, Phone: 1112223333, Email: charlie@gmail.com
+Name: David, Phone: 4445556666, Email: david@gmail.com
+Name: Eve, Phone: 7778889999, Email: eve@gmail.com
+
+---
+
+# Test Case 9: Partial Search for Contacts with Prefix "Ch"
+
+Input:
+6
+Ch
+
+Expected Output:
+Name: Charlie, Phone: 1112223333, Email: charlie@gmail.com
+
+---
+
+# Test Case 10: Exporting Contacts to a CSV File
+
+Input:
+7
+exported_contacts.csv
+
+Expected Output:
+Contacts exported to exported_contacts.csv.
+
+---
+
+# Test Case 11: Importing Contacts from a CSV File
+
+Input:
+8
+imported_contacts.csv
+
+Expected Output:
+Contacts imported from imported_contacts.csv.
+
+---
+
+# Test Case 12: Exiting the Program
+
+Input:
+9
+
+Expected Output:
+Exiting the program. Goodbye!
